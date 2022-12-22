@@ -1,11 +1,11 @@
 var a,b,c
 			a=parseInt(prompt("count"));
-			c=0;
-			b=0;
+			
+			b;
 			for(i=0;a!=0;i++){
 				b=a%10;
-				a=(a-b)/10;
-				c=c*10+b;
+				a=Math.floor(a/10);
+				
                 console.log(b)
 			}
 				
